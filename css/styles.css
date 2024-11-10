@@ -165,6 +165,12 @@ margin-left: auto;
 
 /*<!---------MOBILE-MENU---------> */
 
+.mob-menu.is-open {
+opacity: 1;
+visibility: hidden;
+pointer-events: auto;
+}
+
 .mob-menu {
   background-color: #fff;
   width: 100%;
@@ -1791,7 +1797,7 @@ margin: 0 auto;
 .main-hero {
   padding: 188px 0;
   background: #2e2f42;
-  max-width: 1440px;
+  max-width: 100%;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
