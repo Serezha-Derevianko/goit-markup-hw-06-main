@@ -165,15 +165,10 @@ margin-left: auto;
 
 /*<!---------MOBILE-MENU---------> */
 
-.mob-menu.is-open {
-opacity: 1;
-visibility: hidden;
-pointer-events: auto;
-}
 
 .mob-menu {
   background-color: #fff;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
@@ -190,6 +185,15 @@ pointer-events: auto;
   pointer-events: none;
 }
 
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  }
+
+.mob-icon {
+  fill: #f4f4fd;
+}
 
 .mob-closed-btn {
   display: block;
@@ -198,7 +202,9 @@ pointer-events: auto;
   border-radius: 50%;
   border: 1px solid #e7e9fc;
   background-color: #fff;
-  align-items: center;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
 }
 
 .mob-nav-menu {
@@ -255,6 +261,22 @@ margin-bottom: 48px;
   display: flex;
   flex-wrap: nowrap;
   gap: 40px;
+}
+
+.mob-networks-item {
+  width: 40px;
+  height: 40px;
+}
+
+.mob-address-link{
+  width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 /*<!---------HERO(MOBILE)---------> */
