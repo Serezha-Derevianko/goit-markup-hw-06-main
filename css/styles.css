@@ -306,14 +306,22 @@ margin-bottom: 48px;
 
 /*<!---------HERO(MOBILE)---------> */
 
+
+ 
 .main-hero {
 padding-top: 72px;
 padding-bottom: 72px;
 background: #2e2f42;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob-1x.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover; 
+}
+
+@media (min-resolution: 192dpi) {
+  .main-hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob-2x.jpg);
+  }
 }
 
 
@@ -1074,12 +1082,17 @@ margin-right: auto;
     padding-bottom: 36px;
     background: #2e2f42;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
     }
     
+        @media (min-resolution: 192dpi) {
+          .main-hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab-2x.jpg);
+          }
+        }
     
     .main-hero-title {
     font-family: "Roboto", sans-serif;
@@ -1853,12 +1866,17 @@ margin: 0 auto;
   padding: 188px 0;
   background: #2e2f42;
   max-width: 100%;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
   }
-  
+   
+    @media (min-resolution: 192dpi) {
+      .main-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
+      }
+    }
   
   .main-hero-title {
   font-family: "Roboto", sans-serif;
