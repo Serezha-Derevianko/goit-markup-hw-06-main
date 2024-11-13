@@ -328,7 +328,7 @@ background-size: cover;
 .main-hero-title {
 font-family: "Roboto", sans-serif;
 font-weight: 700;
-font-size: 56px;
+font-size: 36px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 color: #fff;
@@ -444,15 +444,10 @@ margin-bottom: 72px;
 text-transform: capitalize
 }
 
-.main-menu-team {
-}
-
 .our-team-list {
 max-width: 264px;
 margin-top: 24px;
 margin-bottom: 24px;
-margin-right: auto;
-margin-left: auto;
 border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
@@ -1220,10 +1215,11 @@ text-align: center;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: center;
     }
     
     .our-team-list {  
-    margin: 0 auto;
+    
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
